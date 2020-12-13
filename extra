@@ -1,0 +1,38 @@
+        <div class="">
+            <a href="" class="rotate">tximic</a>
+            <img src="C:\Users\Milo\OneDrive\Escritorio\Code\Tareas\portfolio\images\thumbnail_TximicLogoRojo2.png" alt="tximic-img">
+        </div>
+        <div class="">
+            <a href="#" class="rotate">solo</a>
+            <img src="C:\Users\Milo\OneDrive\Escritorio\Code\Tareas\portfolio\images\SOLO-11zon.png" alt="solo-img">
+        </div>
+
+        .project{
+    position: absolute;
+    top: 245px;
+    left: -200px;
+    font-size: 100px;
+    letter-spacing: 0.03em;
+    z-index: 999999;
+    width: 380px;
+    height: 20px;
+    text-align: right;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg)
+}
+
+
+    #work img {
+        width: auto !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+        max-height: none !important;
+        position: relative !important;
+        margin: 0px 0 60px 0 !important;
+        top: 0;
+        left: 0 !important;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        display: block;
+    }
